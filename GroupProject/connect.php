@@ -3,7 +3,7 @@ $servername = "localhost";
 // Enter your MySQL username below(default=root)
 $username = "root";
 // Enter your MySQL password below
-$password = "ReaganIsTheBest!";
+$password = "*************";
 $dbname = "student_grades";
 
 // Create connection

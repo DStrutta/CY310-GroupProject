@@ -8,13 +8,7 @@
     <div class="sidenav" id="theSideNav">
         <a href="javascript:void(0)" id="closebtn" style="padding: 10px 20px;"
                         onclick="closeNav()">&times;</a>
-        <a href="/customer_home.php">Home</a>
-        <a href="/customer_transactions.php">My Transactions</a>
-        <a id="label">Send/Recieve</a>
-        <a href="/beneficiary.php">Transfer Funds</a>
-        <a href="/atm_simulator.php">ATM Simulator</a>
-        <a id="label">Contact Us</a>
-        <a href="#">Submit Griveance</a>
+        <a href="/student_home.php">Home</a>
     </div>
 <script>
 // For-Loop below is used to create active links and accordingly color them.
