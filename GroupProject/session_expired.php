@@ -19,12 +19,12 @@
             <h1 id="session">Session Expired !</h1>
             <p id="session">
                 For security reasons if your account remains inactive for more
-                than 5 minutes, you are automatically logged out.<br><br>
-                Please sign-in again. :)
+                than 10 minutes, you are automatically logged out.<br><br>
+                Please sign-in again.
             </p>
         </div>
         <div class="flex-item">
-            <a href="/home.php" class="button">Go Home</a>
+            <a href="/student_login.php" class="button">Go Home</a>
         </div>
     </div>
 

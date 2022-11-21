@@ -8,7 +8,7 @@
 <body>
     <div class="nav-wrapper">
     <div class="topnav" id="theTopNav">
-        <a href="/home.php">HOME</a>
+        <a href="/student_home.php">HOME</a>
         <a href="javascript:void(0);" class="icon" onclick="respFunc()">&#9776;</a>
     </div>
     </div>

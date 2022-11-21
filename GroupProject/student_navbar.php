@@ -8,7 +8,7 @@
     }
 
     if (isset($_SESSION['loggedIn_student_id'])) {
-        $sql0 = "SELECT * FROM grades WHERE SID = 'S0201938'";//.$_SESSION['loggedIn_student_id'];
+        $sql0 = "SELECT * FROM grades WHERE SID = '".$_SESSION['loggedIn_student_id']."'";
         $result = $conn->query($sql0);
         $row = $result->fetch_assoc();
     }
@@ -27,9 +27,7 @@
         <div class="topnav" id="theTopNav">
             <a href="javascript:void(0);" class="icon" onclick="openNav()" id="hamburger">
                 &#9776;
-            </a>
-            <a id="sid">Welcome, &nbsp<?php echo $row["name"]; ?> !</a>
-            <a id="logout" href="/logout_action.php" onclick="return confirm('Are you sure?')">Logout</a>
+            <a id="logout" href="logout_action.php" onclick="return confirm('Are you sure?')">Logout</a>
 
         </div>
     </div>

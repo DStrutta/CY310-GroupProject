@@ -10,7 +10,7 @@
     $uname = mysqli_real_escape_string($conn, $_POST["login_uname"]);
     $pwd = mysqli_real_escape_string($conn, $_POST["login_psw"]);
 
-    $sql0 =  "SELECT * FROM student_login WHERE s_username='".$uname."' AND s_password='".$pwd."'";
+    $sql0 =  "SELECT * FROM `student_login` WHERE `s_username`='".$uname."' AND s_password='".$pwd."'";
     $result = $conn->query($sql0);
     $row = $result->fetch_assoc();
 
