@@ -1,8 +1,7 @@
 <?php
     include "validate_teacher.php";
     include "header.php";
-    include "student_navbar.php";
-    include "student_sidebar.php";
+    include "home_navbar.php";
     include "session_timeout.php";
 
     $id = $_SESSION['loggedIn_teacher_id'];

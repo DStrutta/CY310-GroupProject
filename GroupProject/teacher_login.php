@@ -1,6 +1,6 @@
 <?php
     include "header.php";
-    include "student_login_navbar.php";
+    include "teacher_login_navbar.php";
 
     if (isset($_GET['loginFailed'])) {
         $message = "Invalid Credentials! Please try again.";
@@ -22,7 +22,7 @@
     <div class="flex-container-background">
         <div class="flex-container">
             <div class="flex-item-0">
-                <h1 id="form_header">Check Your Grades Here.</h1>
+                <h1 id="form_header">Check You Class's Grades.</h1>
             </div>
         </div>
 
@@ -31,7 +31,7 @@
         <div class="flex-container">
             <div class="flex-item-1">
 
-                <form action="student_login_action.php" method="post">
+                <form action="teacher_login_action.php" method="post">
                     <div class="flex-item-login">
                         <h2>Welcome</h2>
                     </div>
@@ -45,7 +45,7 @@
                     </div>
 
                     <div class="flex-item">
-                        <button type="submit" name="student" value="student">Login as Student</button>
+                        <button type="submit" name="teacher" value="teacher">Login as Teacher</button>
                     </div>
 
                 </form>
@@ -56,5 +56,3 @@
 
 </body>
 </html>
-
-

@@ -1,14 +1,10 @@
 <?php
     include "validate_student.php";
     include "header.php";
-    include "student_navbar.php";
-    include "student_sidebar.php";
+    include "home_navbar.php";
     include "session_timeout.php";
 
     $id = $_SESSION['loggedIn_student_id'];
-
-
-    $session_id = strval($id);
 
     $sql0 = "SELECT * FROM `grades` WHERE `SID`= '".$id."'";
     $result0 = $conn->query($sql0);
