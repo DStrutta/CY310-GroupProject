@@ -8,8 +8,8 @@
 <body>
     <div class="nav-wrapper">
     <div class="topnav" id="theTopNav">
-        <a href="/student_home.php">HOME</a>
-        <a href="javascript:void(0);" class="icon" onclick="respFunc()">&#9776;</a>
+        <a href="/GroupProject/teacher_login.php" >Login as Teacher</a>
+
     </div>
     </div>
 <script>

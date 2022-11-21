@@ -22,6 +22,6 @@
     }
     else {
         session_destroy();
-        die(header("location:login.php?loginFailed=true"));
+        die(header("location:teacher_login.php?loginFailed=true"));
     }
 ?>

@@ -31,7 +31,7 @@
         <div class="flex-container">
             <div class="flex-item-1">
 
-                <form action="student_login_action.php" method="post">
+                <form action="teacher_login_action.php" method="post">
                     <div class="flex-item-login">
                         <h2>Welcome</h2>
                     </div>
@@ -45,7 +45,7 @@
                     </div>
 
                     <div class="flex-item">
-                        <button type="submit" name="student" value="student">Login</button>
+                        <button type="submit" name="teacher" value="teacher">Login as Teacher</button>
                     </div>
 
                 </form>
@@ -56,5 +56,3 @@
 
 </body>
 </html>
-
-

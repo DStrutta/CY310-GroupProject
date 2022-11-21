@@ -6,6 +6,6 @@
     }
 
     if(!isset($_SESSION['isTeacherValid'])){
-        header("location:login.php");
+        header("location:teacher_login.php");
     }
 ?>
