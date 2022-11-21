@@ -8,6 +8,7 @@
     }
 ?>
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,9 +16,7 @@
     <link rel="stylesheet" href="login_style.css">
 </head>
 
-<?php
-    
-    ?>
+
 
 <body>
     <div class="flex-container-background">
@@ -27,9 +26,12 @@
             </div>
         </div>
 
+        
+        
         <div class="flex-container">
             <div class="flex-item-1">
-                <form action="student-login-action.php" method="post">
+
+                <form action="student_login_action.php" method="post">
                     <div class="flex-item-login">
                         <h2>Welcome</h2>
                     </div>
@@ -42,12 +44,8 @@
                         <input type="password" name="login_psw" placeholder="Enter your Password" required>
                     </div>
 
-                    <div class="flex-item-3">
+                    <div class="flex-item">
                         <button type="submit" name="student" value="student">Login</button>
-                    </div>
-                    
-                    <div class="flex-item-2">
-                        <button type="submit" name="teacher" value="teacher">Login as Teacher</button>
                     </div>
 
                 </form>
@@ -58,3 +56,5 @@
 
 </body>
 </html>
+
+
