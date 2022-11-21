@@ -10,15 +10,15 @@
     $uname = mysqli_real_escape_string($conn, $_POST["login_uname"]);
     $pwd = mysqli_real_escape_string($conn, $_POST["login_psw"]);
 
-    $sql0 =  "SELECT * FROM `student_login` WHERE `s_username`='".$uname."' AND s_password='".$pwd."'";
+    $sql0 =  "SELECT * FROM `teacher_login` WHERE `t_username`='".$uname."' AND 't_password= '".$pwd."'";
     $result = $conn->query($sql0);
     $row = $result->fetch_assoc();
 
     if (($result->num_rows) > 0) {
-        $_SESSION['loggedIn_student_id'] = $row["s_username"];
-        $_SESSION['isStudentValid'] = true;
+        $_SESSION['loggedIn_teacher_id'] = $row["t_username"];
+        $_SESSION['isTeacherValid'] = true;
         $_SESSION['LAST_ACTIVITY'] = time();
-        header("location:student_home.php");
+        header("location:teacher_home.php");
     }
     else {
         session_destroy();

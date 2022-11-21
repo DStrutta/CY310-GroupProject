@@ -5,7 +5,7 @@
         session_start();
     }
 
-    if(!isset($_SESSION['isStudentValid'])){
+    if(!isset($_SESSION['isTeacherValid'])){
         header("location:login.php");
     }
 ?>
