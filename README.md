@@ -5,3 +5,5 @@ C:/xampp/htdocs/GroupProject
 
 How to get to login page:
 Start your xampp apache server, go to localjost/GroupProject/student_login.php
+
+You also must change the password in the connect.php section
