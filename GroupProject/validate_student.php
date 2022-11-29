@@ -6,6 +6,6 @@
     }
 
     if(!isset($_SESSION['isStudentValid'])){
-        header("location:login.php");
+        header("location:student_login.php");
     }
 ?>

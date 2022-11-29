@@ -49,11 +49,11 @@ p[id="student"] {
 
 @media screen and (max-width: 1080px) {
     h1[id="student"] {
-        padding: 30px 0px;
+        padding: 20px 0px;
     }
 
     p[id="studnet"] {
-        padding: 10px 0px;
+        padding: 30px 0px;
     }
 }
 
