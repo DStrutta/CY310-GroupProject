@@ -22,7 +22,7 @@
     <div class="flex-container-background">
         <div class="flex-container">
             <div class="flex-item-0">
-                <h1 id="form_header">Check You Class's Grades.</h1>
+                <h1 id="form_header">Check Your Class's Grades.</h1>
             </div>
         </div>
 
